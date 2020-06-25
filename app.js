@@ -43,4 +43,5 @@ function toggleBox() {
 
 function toggleYellowBox() {
   $(this).parent().toggleClass('yellow');
+  // $(this).remove();
 }
